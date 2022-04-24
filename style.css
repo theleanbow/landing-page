@@ -1,14 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header, .quote{
+    padding: 0% 10%;
+}
 .header, .footer{
     background-color: #1f2937;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
 }
 .logo{
     font-size: 24px;
     color: #f9faf8;
 }
+
+.link{
+    padding:0px 10px;
+}
+.header2{
+    display: flex;
+}
+.headerleft{
+    width: 50%;
+    margin-right: 20px;
+}
 .heromain{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+}
+.headerright{
+    width: 50%;    
+}
+.headerImg{
+    width: 60%;
 }
 
 .herosecondary{
@@ -20,14 +48,33 @@ color: #e5e7eb;
     background-color: #3882f6;
 }
 
+.button{
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+    border: none;
+border-radius: 10px;
+font-size: large;
+}
 .informationHeader{
 font-size: 36px;
 font-weight: bolder;
 color: #1f2937;
+text-align: center;
 }
-
+.image{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.infoImg{
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+}
 .quote{
     background-color: #e5e7eb;
+    
 }
 
 .quoteText{
@@ -35,8 +82,37 @@ color: #1f2937;
     font-style: italic;
     font-weight: lighter;
     color: #1f2937;
+    width: 80%;
+    text-align: center;
 }
 
+.right{
+    text-align: right;
+    font-weight: 700;
+}
+.callToAction{
+    margin: 50px 10% ;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    border-radius: 5px;
+}
+
+.cta{
+    font-weight: 700;
+}
+
+.button2{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    /* height: 30px; */
+    padding: 5px 20px;
+    justify-content: center;
+}
 .footer{
     text-align: center;
     padding: 20px;
