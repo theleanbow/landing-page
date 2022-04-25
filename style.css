@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family:  Helvetica, sans-serif;
 }
 .header, .quote{
     padding: 0% 10%;
@@ -15,6 +16,7 @@ body{
 .logo{
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 700;
 }
 
 .link{
@@ -33,10 +35,12 @@ body{
     color: #f9faf8;
 }
 .headerright{
-    width: 50%;    
+    width: 50%;   
+    display: flex;
+    justify-content: center; 
 }
 .headerImg{
-    width: 60%;
+    width: 80%;
 }
 
 .herosecondary{
@@ -56,22 +60,26 @@ color: #e5e7eb;
 border-radius: 10px;
 font-size: large;
 }
+
 .informationHeader{
 font-size: 36px;
 font-weight: bolder;
 color: #1f2937;
 text-align: center;
 }
+
 .image{
     display: flex;
     justify-content: center;
     gap: 20px;
 }
+
 .infoImg{
     border-radius: 10px;
     width: 300px;
     height: 200px;
 }
+
 .quote{
     background-color: #e5e7eb;
     
@@ -89,9 +97,10 @@ text-align: center;
 .right{
     text-align: right;
     font-weight: 700;
+    font-size: 18px;
 }
 .callToAction{
-    margin: 50px 10% ;
+    margin: 100px 500px ;
     display: flex;
     color: white;
     justify-content: space-between;
@@ -102,6 +111,10 @@ text-align: center;
 
 .cta{
     font-weight: 700;
+    font-size: 24px;
+}
+.ctatext{
+    font-size: 18px;
 }
 
 .button2{
@@ -109,6 +122,7 @@ text-align: center;
     border-radius: 10px;
     background-color: #3882f6;
     color: white;
+    font-size: 24px;
     /* height: 30px; */
     padding: 5px 20px;
     justify-content: center;
@@ -116,6 +130,7 @@ text-align: center;
 .footer{
     text-align: center;
     padding: 20px;
+    font-size: 24px;
 }
 a{
     text-decoration: none;
